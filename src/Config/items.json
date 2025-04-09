@@ -1,56 +1,56 @@
 [
     {
         "name": "پیتزا پپرونی",
-        "image": "src/assets/images/pepperoni.png",
+        "image": "/images/pepperoni.png",
         "price": 450,
         "weight": "450g",
         "id": "p1"
     },
     {
         "name": "پیتزا سبزیجات",
-        "image": "src/assets/images/veggie.png",
+        "image": "/images/veggie.png",
         "price": 500,
         "weight": "430g",
         "id": "p2"
     },
     {
         "name": "پیتزا هاوایی",
-        "image": "src/assets/images/hawiian.png",
+        "image": "/images/hawiian.png",
         "price": 475,
         "weight": "420g",
         "id": "p324"
     },
     {
         "name": "پیتزا مارگاریتا",
-        "image": "src/assets/images/margherita.png",
+        "image": "/images/margherita.png",
         "price": 400,
         "weight": "400g",
         "id": "p434"
     },
     {
         "name": "پیتزا کاپریچوزا",
-        "image": "src/assets/images/capricciosa.png",
+        "image": "/images/capricciosa.png",
         "price": 500,
         "weight": "440g",
         "id": "p143"
     },
     {
         "name": "شربت پرتقال",
-        "image": "src/assets/images/orangejuice.png",
+        "image": "/images/orangejuice.png",
         "price": 39,
         "weight": "150mL",
         "id": "d3"
     },
     {
         "name": "نوشابه كوكاكولا",
-        "image": "src/assets/images/cocacola.png",
+        "image": "/images/cocacola.png",
         "price": 50,
         "weight": "190mL",
         "id": "d4"
     },
     {
         "name": "نوشابه پپسی",
-        "image": "src/assets/images/pepsi.png",
+        "image": "/images/pepsi.png",
         "price": 45,
         "weight": "210mL",
         "id": "d5"

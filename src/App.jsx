@@ -66,7 +66,7 @@ function Category({children, icon, placed, setPlaced, id}){
 function Search({search, setSearch}){
   return<div className='SearchBox'>
     <input value={search} onChange={(e)=>setSearch(e.target.value)} dir="rtl" placeholder="جستجو..." type="search"/>
-    <img src="src\assets\icons\search.png" alt="" />
+    <img src="\icons\search.png" alt="" />
   </div>
 }
 function Item({id, Name, Price, Weight, Image, handleAddToCart}){

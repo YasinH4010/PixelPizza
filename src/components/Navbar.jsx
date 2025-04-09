@@ -9,8 +9,8 @@ export default function Navbar({tittle}){
 
     }
     return<div className={Navbox}>
-    {tittle==='PixelPizza'? <NavLink to='/login'><img src='src\assets\icons\login.png'/></NavLink>:<NavLink to='/'><img src='src\assets\icons\back.png'/></NavLink>}
+    {tittle==='PixelPizza'? <NavLink to='/login'><img src='\icons\login.png'/></NavLink>:<NavLink to='/'><img src='\icons\back.png'/></NavLink>}
     <p>{tittle}</p>
-    {tittle==='PixelPizza'?<NavLink to='/cart'><img src="src\assets\icons\cart.png" alt=""/></NavLink>:<div></div>}
+    {tittle==='PixelPizza'?<NavLink to='/cart'><img src="\icons\cart.png" alt=""/></NavLink>:<div></div>}
     </div>
 }
