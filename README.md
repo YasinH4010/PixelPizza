@@ -12,4 +12,4 @@
 - قابل استفاده برای موضوعات دیگر
 
 ### دمو
-(برای مشاهده دمو کلیک کنید)[https://YasinH4010.github.io/PixelPizza]
+[برای مشاهده دمو کلیک کنید](https://YasinH4010.github.io/PixelPizza)
