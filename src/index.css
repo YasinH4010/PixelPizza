@@ -1,6 +1,6 @@
 @font-face {
     font-family: vazir;
-    src: url(fonts/Vazir.ttf);
+    src: url(/fonts/Vazir.ttf);
 }
 body{
     font-family: vazir;
