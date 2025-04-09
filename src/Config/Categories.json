@@ -1,0 +1,14 @@
+[
+    {
+        "name": "نوشیدنی",
+        "path": "drink",
+        "icon": "../src/assets/icons/drink.png",
+        "id": "d"
+    },
+    {
+        "name": "پیتزا",
+        "path": "pizza",
+        "icon": "../src/assets/icons/pizza.png",
+        "id": "p"
+    }
+]

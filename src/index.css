@@ -1,0 +1,13 @@
+@font-face {
+    font-family: vazir;
+    src: url(./assets/fonts/Vazir.ttf);
+}
+body{
+    font-family: vazir;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+*{
+    user-select: none;
+}

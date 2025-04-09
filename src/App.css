@@ -1,0 +1,137 @@
+.Categories{
+    display: flex;
+    justify-content: space-between; 
+}
+/*.CategoryBox{
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(128, 128, 128, 0.164);
+    border-radius: 25px;
+}*/
+.CategoryBox img{
+    width: 30px;
+    height: 30px;
+}
+.CategoryBox p{
+    padding: 0;
+    margin: 0;
+}
+
+.CategoryBox{
+    z-index: 2;
+    direction: rtl;
+    width: 150px;
+    margin: 8px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(128, 128, 128, 0.164);
+    border-radius: 25px;
+}
+.SearchBox{
+    width: 100%;
+    display: flex;
+    margin: 8px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    border: solid 3px rgba(128, 128, 128, 0.164);
+    border-radius: 25px;
+}
+.SearchBox img{
+    width: 30px;
+    height: 30px;
+}
+.SearchBox input{
+    all: unset;
+    width: 100%;
+    margin-right: 8px;
+}
+.placed{
+    background-color: yellowgreen;
+}
+.ItemBox{
+    display: inline-grid;
+    grid-template-columns: auto;
+    grid-template-areas: 'ItemImage ItemImage ItemImage'
+    'ItemName ItemName ItemName'
+    'ItemWeight ItemPrice ItemPrice';
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px 2px rgba(153, 205, 50, 0.263);
+    padding: 10px;
+    text-align: center;
+    transition: all 0.3s linear;
+    border: 1px solid black;
+}
+.ItemWeight{
+    grid-area: ItemWeight;
+    margin: 0;
+    padding: 5px;
+}
+.ItemBox:hover{
+    transform: scale(1.02);
+    background-color: rgba(232, 189, 49, 0.509);
+    color: white;
+    box-shadow: 1px 1px 5px 2px rgba(255, 98, 0, 0.651);
+}
+.ItemBox:hover img{
+    transform: scale(1.04) translateY(-10%);
+}
+.ItemBox:hover h1{
+    transform: translateY(-15%);
+    white-space: wrap;
+    overflow: auto;
+    text-overflow: auto;
+}
+.ItemImage{
+    grid-area: ItemImage;
+    width: 100%;
+    height: 150px;
+    image-resolution: ;
+    transition: all 0.3s linear;
+    object-fit: contain;
+    position: relative;
+}
+.ItemImage:hover{
+    
+}
+.ItemName{
+    grid-area: ItemName;
+    margin: 0;
+    width: 100%;
+    font-size: 23px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ItemPrice{
+    grid-area: ItemPrice;
+    margin: 0;
+    font-size: 20px;
+    text-align: right;
+}
+
+.Items{
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 35px 0px 35px;**/
+    padding: 10px 30px 10px 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    column-gap: 3rem;
+    row-gap: 2em;
+    justify-content: stretch;
+    overflow: hidden;
+}
