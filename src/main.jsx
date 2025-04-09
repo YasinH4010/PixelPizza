@@ -8,7 +8,7 @@ import Login from './pages/Login.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/PixelPizza">
       <Routes>
         <Route index element={<App/>}/>
         <Route path='/Cart' element={<Cart/>}/>

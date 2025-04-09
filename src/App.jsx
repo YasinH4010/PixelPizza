@@ -13,30 +13,6 @@ export default function App(){
     localStorage.setItem('cart', JSON.stringify(cart))
   },[cart])
   function handleAddToCart(id){
-    /*cart.current = JSON.parse(localStorage.getItem('cart')) || []
-    
-    item.current = ItemList.find(item=>{
-      if(item.id===id){
-        return item
-      }
-    })
-    console.log(item.current)
-    if(('amount' in item.current)){
-      console.log(cart)
-      cart.current = cart.current.filter(dItem=>{
-        dItem.id!==item.id
-      })
-      item.current.amount+=1
-      console.log('delete:', cart.current)
-      
-    }else{
-      item.current.amount = 1
-      console.log(item)
-      cart.current.push(item.current)
-    }
-    console.log('cart value:', cart)
-    localStorage.setItem('cart',JSON.stringify(cart));*/
-    
     setCart(prevItems=>{
       
       const item = ItemList.find(ti=>ti.id===id?ti:false)
