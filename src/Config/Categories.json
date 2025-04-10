@@ -2,13 +2,13 @@
     {
         "name": "نوشیدنی",
         "path": "drink",
-        "icon": "/icons/drink.png",
+        "icon": "/PixelPizza/icons/drink.png",
         "id": "d"
     },
     {
         "name": "پیتزا",
         "path": "pizza",
-        "icon": "/icons/pizza.png",
+        "icon": "/PixelPizza/icons/pizza.png",
         "id": "p"
     }
 ]
